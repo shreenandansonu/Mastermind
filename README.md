@@ -1,6 +1,6 @@
 ## Mastermind - Color Guessing Game
 
-Mastermind is a fun color-sequence guessing game built using Python and Tkinter.
+Mastermind is a fun color-sequence guessing game built using **Python** and **Tkinter**.
 The goal is to correctly guess a secret 4-color code randomly generated from the colors:
 - R (Red)
 - G (Green)

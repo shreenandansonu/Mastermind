@@ -51,4 +51,4 @@ To run this project
 
 ![Running Screen](https://github.com/shreenandansonu/Mastermind/blob/main/images/running.png)
 
-![Results Screen](https://github.com/shreenandansonu/Mastermind/blob/main/images/results.png)
+![Results Screen](https://github.com/shreenandansonu/Mastermind/blob/main/images/result.png)

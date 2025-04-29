@@ -1,6 +1,5 @@
 import tkinter as tk
 import color_guess_main
-import time
 
 root=tk.Tk()
 root.title("Mastermind")
@@ -47,6 +46,7 @@ def reset():
     incorrect_cnt.config(text="0")
     total_time.config(text="0")
     instruction.config(text="Choose 4 Color Sequence from the list R,G,B,V,Y,O,W")
+    total_time.config(text=times,foreground="#fefae0") 
     code_entry.delete(0, tk.END)  
 # ----------------------------------------------------------------------------------------------------------------
 
@@ -117,3 +117,6 @@ reset_btn.grid(row=0,column=6,sticky="nsew",padx=7,pady=12)
 
 
 root.mainloop()
+
+# pyinstaller --onefile --noconsole --icon=wheel.ico mastermind.py
+
